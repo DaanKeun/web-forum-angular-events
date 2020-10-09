@@ -7,4 +7,8 @@ import { Component, Input } from '@angular/core';
 })
 export class ToDoListComponent {
     @Input() thingsToDo: string[];
+
+    addToDo(toDo: string) {
+        this.thingsToDo.push(toDo);
+    }
 }
