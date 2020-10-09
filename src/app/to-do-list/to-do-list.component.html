@@ -3,6 +3,11 @@
         {{item}}
     </li>
 </ul>
-<button (click)="addToDo('Make coffee')">
-    Make coffee
-</button>
+
+<div>
+    <input #newItem placeholder="Item" />
+    <button (click)="addToDo(newItem)">
+        +
+    </button>
+</div>
+
