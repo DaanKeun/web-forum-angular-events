@@ -1,5 +1,5 @@
-<h1>{{title}}</h1>
-<app-to-do-list [(thingsToDo)]="thingsToDo"></app-to-do-list>
-<app-generic-input (newItem)="onNewItem($event)"></app-generic-input>
-
-Total items to do: {{thingsToDo.length}}
+<app-card>
+    <h1>{{title}}</h1>
+    <app-to-do-list [(thingsToDo)]="thingsToDo"></app-to-do-list>
+    <app-generic-input (newItem)="onNewItem($event)"></app-generic-input>
+</app-card>
