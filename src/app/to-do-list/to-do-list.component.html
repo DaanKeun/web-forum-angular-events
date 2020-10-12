@@ -1,6 +1,7 @@
 <ul>
     <li *ngFor="let item of thingsToDo; let i = index" id="{{i}}">
         {{item}}
+        <button (click)="onComplete(i)">Remove</button>
     </li>
 </ul>
 
