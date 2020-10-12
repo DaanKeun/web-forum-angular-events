@@ -13,4 +13,8 @@ export class AppComponent {
         'Learn Angular',
         'Learn Redux',
     ];
+
+    onNewItem(item: string) {
+        this.thingsToDo.push(item);
+    }
 }
