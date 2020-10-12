@@ -3,4 +3,14 @@
     margin: 32px auto 0;
     padding: 16px;
     width: 320px;
+
+    .card-title {
+        margin-top: 0;
+    }
+
+    .card-content {
+        border: 1px solid #ccc;
+        background-color: #f2f2f2;
+        padding: 8px;
+    }
 }
